@@ -225,13 +225,22 @@ overflow-x: hidden;
 	background: #2ecc71 url('img/bg-footer.png') no-repeat 50% 50%/ cover;
 	height: 445px;
 }
-.footer > h1 {
+.footer_item > h1 {
 	text-align: center;
 }
 .footer_item {
 	padding-top: 113px;
 }
-.footer_text {
+.footer_text > p {
 	height: 100px;
 	color: #fff;
+}
+.footer_button {
+	text-decoration: none;
+	font-size: 18px;
+	color: #fefefe;
+	background: #fff;
+	padding: 36px 13px;
+	border: 1px solid #fff;
+	border-radius: 23px;
 }
